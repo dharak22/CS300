@@ -19,15 +19,15 @@ The `CustomSeparableConv2D` layer extends the standard Keras SeparableConv2D wit
 
 ```
 CS300/
-├── README.md                          # Project documentation
-├── custom_con2d.py                    # Core CustomSeparableConv2D implementation
-├── testing_custom_conv2d.py           # Comprehensive testing and comparison script
-└── separable_conv_comparison_results/ # Experimental results and visualizations
-    ├── standard_model/                # Standard SeparableConv2D results
-    ├── custom_model/                  # CustomSeparableConv2D results
-    ├── experiment_log.txt             # Training logs
-    ├── training_comparison.png        # Accuracy/loss comparison plots
-    └── metrics_comparison.json        # Performance metrics summary
+├── README.md                              #Project documentation
+├── custom_con2d.py                        #Core CustomSeparableConv2D implementation
+├── testing_custom_conv2d.py               #Comprehensive testing and comparison script
+└── separable_conv_comparison_results/     #Experimental results and visualizations
+    ├── standard_model/                    #Standard SeparableConv2D results
+        └── classification_report.json
+                            
+    ├── custom_model/                      #CustomSeparableConv2D results
+        └── classification_report.json                   
 ```
 
 ## Installation
@@ -169,13 +169,6 @@ Contributions are welcome! Areas for improvement:
 - Performance optimization
 - Extended benchmark datasets (CIFAR-10, ImageNet)
 
-## License
-
-This project is for educational and research purposes.
-
-## Author
-
-CS300 Course Project
 
 ## Acknowledgments
 
@@ -185,4 +178,3 @@ CS300 Course Project
 
 ---
 
-For questions or issues, please open a GitHub issue or contact the repository maintainer.
