@@ -25,9 +25,15 @@ CS300/
 └── separable_conv_comparison_results/     #Experimental results and visualizations
     ├── standard_model/                    #Standard SeparableConv2D results
         └── classification_report.json
+        ├── confusion_matrix.png
+        ├── sample_predictions.png
+        ├── training_log.csv
                             
     ├── custom_model/                      #CustomSeparableConv2D results
-        └── classification_report.json                   
+        └── classification_report.json
+        ├── confusion_matrix.png
+        ├── sample_predictions.png
+        ├── training_log.csv               
 ```
 
 ## Installation
