@@ -86,7 +86,7 @@ Both standard and custom models use identical architectures:
 
 ## Results
 
-Detailed experimental results are available in the `separable_conv_comparison_results/` folder:
+Detailed experimental results are available in the `results/` folder:
 
 ### Performance Metrics
 - **Accuracy Comparison**: Validation and test accuracy curves for both models
@@ -105,7 +105,7 @@ Results demonstrate the impact of custom features on:
 - Training stability and convergence
 - Feature representation quality
 
-*See `separable_conv_comparison_results/metrics_comparison.json` for quantitative results and `experiment_log.txt` for detailed training logs.*
+*See `results/` for quantitative results and `training_log.csv` for detailed training logs.*
 
 ## Usage Examples
 
@@ -123,13 +123,6 @@ model = keras.Sequential([
 ])
 ```
 
-### Running Experiments
-```bash
-# Run full comparison experiment
-python testing_custom_conv2d.py
-
-# Results will be saved to separable_conv_comparison_results/
-```
 
 ## Custom Features Explanation
 
